@@ -9,10 +9,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <!-- material icon -->
+    <link rel="stylesheet" href="./src/material-icon.css">
+
     <title>To Do</title>
 </head>
 <body>
-    <p>Hello World!</p>
+    <main>
+        <div id="top-bar">
+            <p>Simple To-Dos</p>
+        </div>
+
+        <div id="body"></div>
+
+        <div id="app-nav">
+            <div class="nav-btn">
+                <i class="material-icons">home</i>
+                <p>home</p>
+            </div>
+            <div class="nav-btn">
+                <i class="material-icons">check_circle</i>
+                <p>tasks</p>
+            </div>
+            <div class="nav-btn">
+                <i class="material-icons">article</i>
+                <p>notes</p>
+            </div>
+            <div class="nav-btn">
+                <i class="material-icons">info</i>
+                <p>about</p>
+            </div>
+        </div>
+    </main>
+    <script src="./src/script.js" defer></script>
 </body>
 </html>
